@@ -4,11 +4,12 @@ import sys,tweepy
 
 def twitter_auth():
 	try: 
+            consumer_key = 'enter yours xxxx'
+	    consumer_seceret = 'enter yours xxxx'
+	    access_token = 'enter yours xxxx'
+	    access_secret = 'enter yours xxxx'
 
-		consumer_key = 'enter yours xxxx'
-		consumer_seceret = 'enter yours xxxx'
-		access_token = 'enter yours xxxx'
-		access_secret = 'enter yours xxxx'
+		
 # If we can use the slack = Slacker('xoxb-1641899325365-1746817157600-fQUAOEfNFdlWICwpdSWYEvrD')
 # A CSV file to not have to edit the source code itself, dff = pd.read_csv("twitter.csv")
 	except KeyError:
